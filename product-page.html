@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
+    <link href="./style.css" rel="stylesheet"/>
+    <script src="./index.js" type="text/javascript"></script>
+</head>
+<body class='body'>
+    <div class='banner'>
+        <div>
+            <a href='index.html'>
+                <img class='back' src='./assets/image/elements/back.png'/>
+            </a>
+        </div>
+        <div>
+            <img class='figure' src='./assets/image/elements/product.png'/>
+        </div>
+        <div class='bannerTitle'>
+            <h3>Gestão de Cadastro</h3>
+            <h5>Produtos</h5>
+        </div>
+    </div>
+    <div class='choiceBox'>
+        <div class='recordBox'>
+            <label class='recordLabel' for='labelBox'>Rótulo</label>
+            <input class='inputBox' type='text' id='labelBox'/>
+
+            <label class='recordLabel' for='brandBox'>Marca</label>
+            <input class='inputBox' type='text' id='brandBox'/>
+
+            <label class='recordLabel' for='presentationBox'>Apresentação</label>
+            <input class='inputBox' type='text' id='presentationBox'/>
+
+            <label class='recordLabel' for='volumeBox'>Volume</label>
+            <input class='inputBox' type='tel' id='volumeBox'/>
+
+            <label class='recordLabel' for='amountBox'>Quantidade</label>
+            <input class='inputBox' type='text' id='amountBox'/>
+
+            <label class='recordLabel' for='netPriceBox'>Preço de Compra</label>
+            <input class='inputBox' type='text' id='netPriceBox'/>
+
+            <label class='recordLabel' for='retailPriceBox'>Preço Revenda</label>
+            <input class='inputBox' type='text' id='retailPriceBox'/>
+
+            <div class='buttonBox'>
+                <button class='actionButton' onclick='getProduct()'>Recupera Produto</button>
+                <button class='actionButton' onclick='saveProduct()'>Grava Produto</button>
+                <button class='actionButton' onclick='deleteProduct()'>Apaga Produto</button>
+            </div>
+            <h3 class='msg' id='msg'></h3>            
+        </div>
+    </div>
+</body>
+</html>

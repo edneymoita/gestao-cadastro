@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
+    <link href="./style.css" rel="stylesheet"/>
+    <script src="./index.js" type="text/javascript"></script>
+</head>
+<body class='body'>
+    <div class='banner'>
+        <div>
+            <a href='index.html'>
+                <img class='back' src='./assets/image/elements/back.png'/>
+            </a>
+        </div>
+        <div>
+            <img class='figure' src='./assets/image/elements/customer.png'/>
+        </div>
+        <div class='bannerTitle'>
+            <h3>Gestão de Cadastro</h3>
+            <h5>Clientes</h5>
+        </div>
+    </div>
+    <div class='choiceBox'>
+        <div class='recordBox'>
+            <label class='recordLabel' for='nameBox'>Nome Completo</label>
+            <input class='inputBox' type='text' id='nameBox'/>
+
+            <label class='recordLabel' for='addressBox'>Endereço</label>
+            <input class='inputBox' type='text' id='addressBox'/>
+
+            <label class='recordLabel' for='emailBox'>E-mail</label>
+            <input class='inputBox' type='email' id='emailBox'/>
+
+            <label class='recordLabel' for='phoneBox'>Telefone</label>
+            <input class='inputBox' type='tel' id='phoneBox'/>
+
+            <label class='recordLabel' for='cpfBox'>CPF</label>
+            <input class='inputBox' type='text' id='cpfBox'/>
+
+            <label class='recordLabel' for='rgBox'>RG</label>
+            <input class='inputBox' type='text' id='rgBox'/>
+
+            <div class='buttonBox'>
+                <button class='actionButton' onclick='getClient()'>Recupera Cliente</button>
+                <button class='actionButton' onclick='saveClient()'>Grava Cliente</button>
+                <button class='actionButton' onclick='deleteClient()'>Apaga Cliente</button>
+            </div>
+            <h3 class='msg' id='msg'></h3>            
+        </div>
+    </div>
+</body>
+</html>

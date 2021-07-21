@@ -1,0 +1,16 @@
+{
+  "name": "gestao-cadastro",
+  "version": "1.0.0",
+  "description": "Gestão de cadastro de clientes e produtos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cadastro",
+    "cliente",
+    "produto"
+  ],
+  "author": "Edney Moita",
+  "license": "ISC"
+}
