@@ -1,3 +1,5 @@
+import productImage from './assets/image/elements/market.png'
+
 function getProduct(){
     const product = JSON.parse(localStorage.getItem('product'));
 
@@ -49,7 +51,7 @@ function saveProduct(){
 
 function deleteProduct(){
     if (localStorage.getItem('product') != null) {
-        localStorage.clear();
+        localStorage.removeItem('product');
         document.getElementById('msg').innerHTML = 'Produto apagado com sucesso!';
     }
     else
@@ -103,7 +105,7 @@ function saveClient(){
 
 function deleteClient(){
     if (localStorage.getItem('client') != null) {
-        localStorage.clear();
+        localStorage.removeItem('client');
         document.getElementById('msg').innerHTML = 'Cliente apagado com sucesso!';
     }
     else
