@@ -1,5 +1,3 @@
-import productImage from './assets/image/elements/market.png'
-
 function getProduct(){
     const product = JSON.parse(localStorage.getItem('product'));
 
