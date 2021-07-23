@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page</title>
+    <title>Gestão de Cadastro - Produto</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
     <link href="./style.css" rel="stylesheet"/>
@@ -14,9 +14,7 @@
 <body class='body'>
     <div class='banner'>
         <div>
-            <a href='index.html'>
-                <img class='back' src='./assets/image/elements/back.png' alt='Voltar'/>
-            </a>
+            <img class='back' src='./assets/image/elements/back.png' alt='Voltar' onclick='goBack()'/>
         </div>
         <div>
             <img class='figure' src='./assets/image/elements/market.png'/>
@@ -28,30 +26,24 @@
     </div>
     <div class='choiceBox'>
         <div class='recordBox'>
-            <label class='recordLabel' for='labelBox'>Rótulo</label>
-            <input class='inputBox' type='text' id='labelBox'/>
+            <label class='recordLabel' for='codeBox'>Código</label>
+            <input class='inputBox' type='text' id='codeBox'/>
 
-            <label class='recordLabel' for='brandBox'>Marca</label>
-            <input class='inputBox' type='text' id='brandBox'/>
-
-            <label class='recordLabel' for='presentationBox'>Apresentação</label>
-            <input class='inputBox' type='text' id='presentationBox'/>
-
-            <label class='recordLabel' for='volumeBox'>Volume</label>
-            <input class='inputBox' type='tel' id='volumeBox'/>
+            <label class='recordLabel' for='nameBox'>Nome</label>
+            <input class='inputBox' type='text' id='nameBox'/>
 
             <label class='recordLabel' for='amountBox'>Quantidade</label>
             <input class='inputBox' type='text' id='amountBox'/>
 
-            <label class='recordLabel' for='netPriceBox'>Preço de Compra</label>
-            <input class='inputBox' type='text' id='netPriceBox'/>
+            <label class='recordLabel' for='priceBox'>Preço</label>
+            <input class='inputBox' type='number' id='priceBox'/>
 
-            <label class='recordLabel' for='retailPriceBox'>Preço Revenda</label>
-            <input class='inputBox' type='text' id='retailPriceBox'/>
+            <label class='recordLabel' for='descriptionBox'>Descrição</label>
+            <textarea class='inputBox' type='text' id='descriptionBox' style='height:150px'></textarea>
 
             <div class='buttonBox'>
-                <button class='actionButton' onclick='getProduct()'>Recupera Produto</button>
                 <button class='actionButton' onclick='saveProduct()'>Grava Produto</button>
+                <button class='actionButton' onclick='getProduct()'>Recupera Produto</button>
                 <button class='actionButton' onclick='deleteProduct()'>Apaga Produto</button>
             </div>
             <h3 class='msg' id='msg'></h3>            

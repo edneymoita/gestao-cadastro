@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gestão de Cadastro - Cliente</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
     <link href="./style.css" rel="stylesheet"/>
@@ -14,9 +14,7 @@
 <body class='body'>
     <div class='banner'>
         <div>
-            <a href='index.html'>
-                <img class='back' src='./assets/image/elements/back.png' alt='Voltar'/>
-            </a>
+            <img class='back' src='./assets/image/elements/back.png' alt='Voltar' onclick='goBack()'/>
         </div>
         <div>
             <img class='figure' src='./assets/image/elements/couple.png'/>
@@ -31,24 +29,33 @@
             <label class='recordLabel' for='nameBox'>Nome Completo</label>
             <input class='inputBox' type='text' id='nameBox'/>
 
-            <label class='recordLabel' for='addressBox'>Endereço</label>
+            <label class='recordLabel' for='addressBox'>Rua</label>
             <input class='inputBox' type='text' id='addressBox'/>
 
-            <label class='recordLabel' for='emailBox'>E-mail</label>
-            <input class='inputBox' type='email' id='emailBox'/>
+            <label class='recordLabel' for='numberBox'>Número</label>
+            <input class='inputBox' type='number' id='numberBox'/>
+
+            <label class='recordLabel' for='districtBox'>Bairro</label>
+            <input class='inputBox' type='text' id='districtBox'/>
+
+            <label class='recordLabel' for='cityBox'>Cidade</label>
+            <input class='inputBox' type='text' id='cityBox'/>
+
+            <label class='recordLabel' for='stateBox'>Estado</label>
+            <input class='inputBox' type='text' id='stateBox'/>
+
+            <label class='recordLabel' for='cepBox'>CEP</label>
+            <input class='inputBox' type='text' id='cepBox'/>
 
             <label class='recordLabel' for='phoneBox'>Telefone</label>
             <input class='inputBox' type='tel' id='phoneBox'/>
 
-            <label class='recordLabel' for='cpfBox'>CPF</label>
-            <input class='inputBox' type='text' id='cpfBox'/>
-
-            <label class='recordLabel' for='rgBox'>RG</label>
-            <input class='inputBox' type='text' id='rgBox'/>
+            <label class='recordLabel' for='emailBox'>E-mail</label>
+            <input class='inputBox' type='email' id='emailBox'/>
 
             <div class='buttonBox'>
-                <button class='actionButton' onclick='getClient()'>Recupera Cliente</button>
                 <button class='actionButton' onclick='saveClient()'>Grava Cliente</button>
+                <button class='actionButton' onclick='getClient()'>Recupera Cliente</button>
                 <button class='actionButton' onclick='deleteClient()'>Apaga Cliente</button>
             </div>
             <h3 class='msg' id='msg'></h3>            
