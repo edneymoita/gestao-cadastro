@@ -17,7 +17,6 @@ function getClient(){
         document.getElementById('phoneBox').value = client.phone;
         document.getElementById('emailBox').value = client.email;
     }
-    document.getElementById('nameBox').focus();
 }
 
 function saveClient(){
@@ -63,7 +62,6 @@ function deleteClient(){
     }
     else
         document.getElementById('msg').innerHTML = 'Não existia cliente armazenado!';
-    document.getElementById('nameBox').focus();
 }
 
 function clearClientForm() {
@@ -76,8 +74,6 @@ function clearClientForm() {
     document.getElementById('cepBox').value = '';
     document.getElementById('phoneBox').value = '';
     document.getElementById('emailBox').value = '';
-
-    document.getElementById('nameBox').focus();
 }
 
 function getProduct(){
@@ -131,8 +127,6 @@ function deleteProduct(){
     }
     else
         document.getElementById('msg').innerHTML = 'Não existia produto armazenado!';
-
-    document.getElementById('codeBox').focus();
 }
 
 function clearProductForm(){
@@ -141,8 +135,6 @@ function clearProductForm(){
     document.getElementById('amountBox').value = '';
     document.getElementById('priceBox').value = '';
     document.getElementById('descriptionBox').value = '';
-
-    document.getElementById('codeBox').focus();
 }
 
 function goBack () {
