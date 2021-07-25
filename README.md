@@ -5,9 +5,7 @@ Módulo simples para cadastro de cliente e produto, armazenados no formato JSON 
 Desenvolvido como parte do treinamento Hiring Coders - VTEX.
 <br>
 <br>
-<img src='https://hiringcoders-app.gama.academy/images/logo-sm.png' alt="Hiring Coders" width="auto" height="50" />
-<img src='https://vtex.com/wp-content/themes/VTEXTheme/v2/images/base/vtex.svg' alt="VTEX" width="auto" height="50">
-<img src='https://assets.website-files.com/5ff79f3ebebf6b12f6b7747f/5ffe04fc6284b7e90070d985_logo-gama-academy-p-500.png' alt="Gama Academy" width="auto" height="50">
+<img src='https://hiringcoders-app.gama.academy/images/logo-sm.png' alt="Hiring Coders" width="auto" height="50" />  <img src='https://vtex.com/wp-content/themes/VTEXTheme/v2/images/base/vtex.svg' alt="VTEX" width="auto" height="50">  <img src='https://assets.website-files.com/5ff79f3ebebf6b12f6b7747f/5ffe04fc6284b7e90070d985_logo-gama-academy-p-500.png' alt="Gama Academy" width="auto" height="50">
 
 ***
 ## Instalação
@@ -22,9 +20,7 @@ Aplicação Web. Não necessita de instalação.
 ***
 ## Desenvolvido em
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
 
 ***
 
